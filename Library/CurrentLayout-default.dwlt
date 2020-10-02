@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 782
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,8 +74,8 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
-  - {fileID: 20}
-  m_MainToolbar: {fileID: 20}
+  - {fileID: 19}
+  m_MainToolbar: {fileID: 19}
   m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 732
-  m_MinSize: {x: 679, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 56
+  controlID: 80
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1174
     height: 732
-  m_MinSize: {x: 403, y: 342}
-  m_MaxSize: {x: 8003, y: 8042}
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -220,14 +220,13 @@ MonoBehaviour:
     height: 434
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,7 +237,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -247,14 +246,14 @@ MonoBehaviour:
     y: 434
     width: 1174
     height: 298
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,11 +273,11 @@ MonoBehaviour:
     y: 0
     width: 362
     height: 732
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -290,23 +289,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 800, y: 250}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Package Manager
-    m_Image: {fileID: 5076950121296946556, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 368.4
-    y: 78.4
-    width: 800
-    height: 405
+    x: 364.80002
+    y: 72
+    width: 807.2
+    height: 413
   m_ViewDataDictionary: {fileID: 0}
-  m_SplitPaneLeftWidth: 300
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -2619822482195138566, guid: f697f9a1b9ac746408049f91d3906fd4, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: -50
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0.000061035156
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: f697f9a1b9ac746408049f91d3906fd4, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -2619822482195138566, guid: f697f9a1b9ac746408049f91d3906fd4, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -345,21 +379,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/scripts
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ta850983\Desktop\sound_tut\sound_tut
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 123c0000
-    m_LastClickedID: 15378
-    m_ExpandedIDs: 00000000123c0000
+    m_SelectedIDs: 683c0000
+    m_LastClickedID: 15464
+    m_ExpandedIDs: 00000000603c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +421,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 4}
     m_SelectedIDs: c03d0000
     m_LastClickedID: 15808
-    m_ExpandedIDs: 00000000123c0000
+    m_ExpandedIDs: 00000000603c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -414,7 +448,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000483900006a39000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -471,9 +505,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: cc2e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 72f7ffff8af7ffff8cf7ffffdaf7fffff2f7ffffaaf8ffff60f9ffff78f9ffff30faffff16fbffff
+      m_ExpandedIDs: 5cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -517,9 +551,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 365.2
+    x: 364.80002
     y: 72
-    width: 807
+    width: 807.2
     height: 413
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -586,9 +620,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 3.6015275
     speed: 2
-    m_Value: 10
+    m_Value: 3.6015275
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -671,7 +705,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -710,496 +744,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 394.4
-    y: 78.4
-    width: 774
-    height: 405
-  m_ViewDataDictionary: {fileID: 0}
-  m_Spl:
-    ID: 138
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes:
-    - 251.19998
-    - 83.6
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes:
-    - 32
-    - 32
-    maxSizes:
-    - 0
-    - 0
-    lastTotalSize: 334.8
-    splitSize: 6
-    xOffset: 0
-    m_Version: 1
-    oldRealSizes: 
-    oldMinSizes: 
-    oldMaxSizes: 
-    oldSplitSize: 0
-  m_TestTypeToolbarIndex: 0
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 17}
-    newResultList:
-    - id: 1003
-      uniqueId: '[t1-f20][suite]'
-      name: t1-f20
-      fullName: t1-f20
-      resultStatus: 1
-      duration: 21.952753
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1010
-      uniqueId: '[PlayTests.dll][suite]'
-      name: PlayTests.dll
-      fullName: C:/Users/ta850983/dig3480-f20-t1-Liu-ye3/Library/ScriptAssemblies/PlayTests.dll
-      resultStatus: 1
-      duration: 21.91757
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1003
-      parentUniqueId: '[t1-f20][suite]'
-    - id: 1011
-      uniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 21.906559
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1010
-      parentUniqueId: '[PlayTests.dll][suite]'
-    - id: 1004
-      uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-      name: RollABallTests
-      fullName: Tests.RollABallTests
-      resultStatus: 1
-      duration: 12.601888
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1011
-      parentUniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-    - id: 1005
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestCameraControllerPresent]
-      name: TestCameraControllerPresent
-      fullName: Tests.RollABallTests.TestCameraControllerPresent
-      resultStatus: 1
-      duration: 2.1969604
-      messages: 
-      output: '(7.9, 0.5, 7.9)
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1006
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPhysicsSetup]
-      name: TestPhysicsSetup
-      fullName: Tests.RollABallTests.TestPhysicsSetup
-      resultStatus: 1
-      duration: 0.0602921
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1007
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPlayerControls]
-      name: TestPlayerControls
-      fullName: Tests.RollABallTests.TestPlayerControls
-      resultStatus: 1
-      duration: 6.708587
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1008
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPlayerDoesntFall]
-      name: TestPlayerDoesntFall
-      fullName: Tests.RollABallTests.TestPlayerDoesntFall
-      resultStatus: 1
-      duration: 3.560206
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1009
-      uniqueId: PlayTests.dll/Tests/RollABallTests/[PlayTests][Tests.RollABallTests.TestPlayerExists]
-      name: TestPlayerExists
-      fullName: Tests.RollABallTests.TestPlayerExists
-      resultStatus: 1
-      duration: 0.0576359
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTests][suite]
-    - id: 1001
-      uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-      name: RollABallTestsPickups
-      fullName: Tests.RollABallTestsPickups
-      resultStatus: 1
-      duration: 5.1048207
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1013
-      parentUniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-    - id: 1002
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestPickupConfiguration]
-      name: TestPickupConfiguration
-      fullName: Tests.RollABallTestsPickups.TestPickupConfiguration
-      resultStatus: 1
-      duration: 1.0122143
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1003
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestPickUpRemoved]
-      name: TestPickUpRemoved
-      fullName: Tests.RollABallTestsPickups.TestPickUpRemoved
-      resultStatus: 1
-      duration: 2.056685
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1004
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestPickUpsHaveTag]
-      name: TestPickUpsHaveTag
-      fullName: Tests.RollABallTestsPickups.TestPickUpsHaveTag
-      resultStatus: 1
-      duration: 1.0126082
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1005
-      uniqueId: PlayTests.dll/Tests/RollABallTestsPickups/[PlayTests][Tests.RollABallTestsPickups.TestRotatorPresent]
-      name: TestRotatorPresent
-      fullName: Tests.RollABallTestsPickups.TestRotatorPresent
-      resultStatus: 1
-      duration: 1.0103894
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsPickups][suite]
-    - id: 1006
-      uniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-      name: RollABallTestsScoring
-      fullName: Tests.RollABallTestsScoring
-      resultStatus: 1
-      duration: 4.1949444
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1017
-      parentUniqueId: PlayTests.dll/[PlayTests][Tests][suite]
-    - id: 1008
-      uniqueId: PlayTests.dll/Tests/RollABallTestsScoring/[PlayTests][Tests.RollABallTestsScoring.TestScoreOnCollide]
-      name: TestScoreOnCollide
-      fullName: Tests.RollABallTestsScoring.TestScoreOnCollide
-      resultStatus: 1
-      duration: 2.0616684
-      messages: 
-      output: '0
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-    - id: 1007
-      uniqueId: PlayTests.dll/Tests/RollABallTestsScoring/[PlayTests][Tests.RollABallTestsScoring.TestScorePresent]
-      name: TestScorePresent
-      fullName: Tests.RollABallTestsScoring.TestScorePresent
-      resultStatus: 1
-      duration: 0.0579465
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-    - id: 1009
-      uniqueId: PlayTests.dll/Tests/RollABallTestsScoring/[PlayTests][Tests.RollABallTestsScoring.TestWinText]
-      name: TestWinText
-      fullName: Tests.RollABallTestsScoring.TestWinText
-      resultStatus: 1
-      duration: 2.072178
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1006
-      parentUniqueId: PlayTests.dll/Tests/[PlayTests][Tests.RollABallTestsScoring][suite]
-    - id: 1014
-      uniqueId: '[Unity.InputSystem.IntegrationTests][C:/Users/ta850983/dig3480-f20-t1-Liu-ye3/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll][suite]'
-      name: Unity.InputSystem.IntegrationTests.dll
-      fullName: C:/Users/ta850983/dig3480-f20-t1-Liu-ye3/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
-      resultStatus: 1
-      duration: 0.0124412
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1003
-      parentUniqueId: '[t1-f20][suite]'
-    - id: 1012
-      uniqueId: Unity.InputSystem.IntegrationTests.dll/[Unity.InputSystem.IntegrationTests][IntegrationTests][suite]
-      name: IntegrationTests
-      fullName: IntegrationTests
-      resultStatus: 1
-      duration: 0.0108447
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1014
-      parentUniqueId: '[Unity.InputSystem.IntegrationTests][C:/Users/ta850983/dig3480-f20-t1-Liu-ye3/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll][suite]'
-    - id: 1013
-      uniqueId: Unity.InputSystem.IntegrationTests.dll/IntegrationTests/[Unity.InputSystem.IntegrationTests][IntegrationTests.Integration_CanSendAndReceiveEvents]
-      name: Integration_CanSendAndReceiveEvents
-      fullName: IntegrationTests.Integration_CanSendAndReceiveEvents
-      resultStatus: 1
-      duration: 0.0086636
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Integration
-      parentId: 1012
-      parentUniqueId: Unity.InputSystem.IntegrationTests.dll/[Unity.InputSystem.IntegrationTests][IntegrationTests][suite]
-    m_ResultText: RollABallTestsScoring (4.195s)
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0f44edc1
-      m_LastClickedID: -1041415153
-      m_ExpandedIDs: 050048895efec1990f44edc1baca32c78c1e39df3d58f7f0182d72390664c953ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Integration
-      - Uncategorized
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 17}
-    newResultList:
-    - id: 1000
-      uniqueId: '[t1-f20][suite]'
-      name: t1-f20
-      fullName: t1-f20
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: baca32c7ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1217,7 +761,7 @@ MonoBehaviour:
     width: 1173
     height: 277
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1255,7 +799,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
